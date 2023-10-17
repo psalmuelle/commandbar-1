@@ -58,6 +58,10 @@ body {
     ),
     linear-gradient(0deg, #ffffff, #ffffff);
 }
+.hr-gradient{
+    background: linear-gradient(89.94deg, #C798FE 0.05%, #CA92F8 1.25%, #CA92F8 15.38%, #FF2B83 23.26%, #FFD59D 37.43%, #FFD59D 48.57%, #FFE5A0 51.05%);
+
+}
 .slider{
     @apply hover:scale-110 cursor-pointer w-36
 }
