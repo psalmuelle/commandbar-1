@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.btn {
+  @apply px-4 py-3 border border-black/25 font-semibold rounded-xl;
+}
+.flex-between {
+  @apply flex justify-between items-center;
+}
+.flex-center {
+  @apply flex justify-center items-center;
+}
+.hero_gradient {
+  background: linear-gradient(
+    93.23deg,
+    #0000ff 45.55%,
+    #0000ff 53.19%,
+    #9ec5ff 55.18%,
+    #0000ff 62.74%,
+    #0000ff 63.35%,
+    #9e9eff 85.39%,
+    #0000ff 87.37%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.carousel_gradient {
+  background: linear-gradient(
+    223.85deg,
+    rgba(245, 245, 245, 0.74) 37.25%,
+    rgba(245, 245, 245, 0.13) 58.83%
+  );
+
+}
+.carousel_header{
+    @apply w-full flex-center flex-col text-center h-28
+}
+.font__dm-Mono {
+  font-family: "DM Mono", monospace;
+}
+.bg-gradient {
+  background: linear-gradient(
+      150.24deg,
+      rgba(120, 86, 255, 0.5) 3.73%,
+      rgba(202, 219, 253, 0.5) 15.66%,
+      rgba(213, 202, 253, 0.5) 23.05%,
+      rgba(213, 202, 253, 0.5) 31.04%,
+      rgba(202, 204, 253, 0.5) 47.62%,
+      rgba(213, 202, 253, 0.5) 61.07%,
+      rgba(234, 202, 253, 0.5) 68.98%,
+      rgba(202, 219, 253, 0.5) 75.32%,
+      rgba(120, 86, 255, 0.5) 97.26%
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+}
+.slider{
+    @apply hover:scale-110 cursor-pointer w-36
+}

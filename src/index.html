@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing Page</title>
+  </head>
+  <body class="">
+    <div class="bg-gradient relative">
+      <img
+        src="./assets/boxes.png"
+        alt="boxes"
+        class="absolute top-20 mix-blend-overlay"
+      />
+      <img
+        src="./assets/rings.png"
+        alt="rings"
+        class="h-[650px] absolute right-0 mix-blend-hard-light -top-5"
+      />
+      <img
+        src="./assets/AI-avatar.png"
+        alt="ai-avatar"
+        class="absolute right-[390px] top-40"
+      />
+
+      <header class="flex-between pt-4 px-[6%]">
+        <div class="flex-center gap-2">
+          <img src="./assets/logo.svg" alt="Logo" />
+          <p class="font-medium text-lg">CommandBar</p>
+        </div>
+
+        <ul class="flex-center gap-8 font-medium">
+          <li>
+            <div class="flex justify-center items-baseline gap-2">
+              <p>Product</p>
+              <img src="./assets/chevron.svg" alt="chevron" />
+            </div>
+          </li>
+          <li>Pricing</li>
+          <li>Docs</li>
+          <li>
+            <div class="flex-center gap-2">
+              <p>Careers</p>
+              <div class="px-5 py-1 rounded-full border-2 border-[#7A7A7A]"
+                >2</div
+              >
+            </div>
+          </li>
+        </ul>
+
+        <div class="flex-center gap-2">
+          <button class="btn"> Login </button>
+          <button class="btn bg-black flex-center text-white text-lg gap-2"
+            ><p>Start Building</p
+            ><img src="./assets/arrow-right.svg" alt="arrow right" />
+          </button>
+        </div>
+      </header>
+
+      <div class="px-[8%]">
+        <section>
+          <div class="mt-14">
+            <h1
+              class="w-fit hero_gradient text-[112px] font-medium font__dm-Mono z-40"
+              >&gt;AI-Powered</h1
+            >
+            <h1 class="-mt-16 -mb-4 font-black text-[#000038] text-[112px]"
+              >User Assistance</h1
+            >
+          </div>
+          <h2 class="text-2xl max-w-3xl text-[#000038]">
+            The only platform for non-annoying user assistance, helping product,
+            marketing, and customer teams
+            <span
+              class="inline-block bg-[url('/src/assets/marker-highlight.svg')] bg-center bg-no-repeat px-3 -mx-3"
+            >
+              unleash
+            </span>
+            their users.
+          </h2>
+          <div class="w-fit flex-center gap-4 mt-6">
+            <button
+              class="btn h-16 bg-[#000038] flex-center text-white text-2xl gap-2"
+              ><p>Start Building</p
+              ><img src="./assets/arrow-right.svg" alt="arrow right" />
+            </button>
+            <button
+              class="px-4 h-16 rounded-xl flex-center text-[#000038] border-2 border-[#5F5FCF] gap-2"
+            >
+              <div class="flex-center">
+                <img src="./assets/play-icon.svg" alt="play icon" />
+                <img src="./assets/james.png" alt="James" class="-ml-3" />
+              </div>
+              <p class="text-2xl font-medium">Watch a demo</p
+              ><img src="./assets/arrow-right.svg" alt="arrow right" />
+            </button>
+          </div>
+        </section>
+
+        <section
+          class="carousel_gradient shadow-md shadow-[#0A0A0F3D]/25 rounded-t-xl"
+        >
+          <div class="mt-10 bg-white flex-center rounded-t-xl">
+            <div class="carousel_header">
+              <img class="mb-1" src="./assets/icon-copilot.svg" />
+              <h1 class="font-semibold">Copilot</h1>
+              <p class="text-sm">AI-powered assistant </p>
+            </div>
+
+            <div class="carousel_header">
+              <img class="mb-1" src="./assets/icon-tour.svg" />
+              <h1 class="font-semibold">Product Tours</h1>
+              <p class="text-sm">Tours that convert</p>
+            </div>
+
+            <div class="carousel_header">
+              <img class="mb-1" src="./assets/icon-survey.svg" />
+              <h1 class="font-semibold">Surveys</h1>
+              <p class="text-sm">In-app feedback</p>
+            </div>
+
+            <div class="carousel_header">
+              <img class="mb-1" src="./assets/icon-checklist.svg" />
+              <h1 class="font-semibold">Checklists</h1>
+              <p class="text-sm">Self-guided onboarding</p>
+            </div>
+
+            <div class="carousel_header">
+              <img class="mb-1" src="./assets/icon-inapp.svg" />
+              <h1 class="font-semibold">In-app Help</h1>
+              <p class="text-sm">Rich help docs</p>
+            </div>
+
+            <div class="carousel_header">
+              <img class="mb-1" src="./assets/icon-spotlight.svg" />
+              <h1 class="font-semibold">Spotlight</h1>
+              <p class="text-sm">Find anything</p>
+            </div>
+          </div>
+          <div class="w-fit mx-auto mt-8">
+            <img src="./assets/carousel-image.png" alt="produc tours" />
+          </div>
+        </section>
+      </div>
+    </div>
+    <main>
+      <section class=" border-y border-gray-400 py-16 overflow-hidden">
+        <div class="w-fit flex-center gap-6 animate-slide">
+         
+        <div class="slider">
+          <img alt="One Signal" src="./assets/OneSignal.png" />
+        </div>
+        <div class="slider">
+          <img alt="Yopto" src="./assets/Yotpo.png" />
+        </div>
+        <div class="slider">
+          <img alt="Clearbit" src="./assets/Clearbit.png" />
+        </div>
+        <div class="slider">
+          <img alt="Hashicorp" src="./assets/HashiCorp.png" />
+        </div>
+        <div class="slider">
+          <img alt="ConvertKit" src="./assets/ConvertKit.png" />
+        </div>
+        <div class="slider">
+          <img alt="Valon" src="./assets/Valon.png" />
+        </div>
+        <div class="slider">
+          <img alt="Launch Darkly" src="./assets/launchDarkly.png" />
+        </div>
+
+
+
+        <div class="slider">
+            <img alt="One Signal" src="./assets/OneSignal.png" />
+          </div>
+          <div class="slider">
+            <img alt="Yopto" src="./assets/Yotpo.png" />
+          </div>
+          <div class="slider">
+            <img alt="Clearbit" src="./assets/Clearbit.png" />
+          </div>
+          <div class="slider">
+            <img alt="Hashicorp" src="./assets/HashiCorp.png" />
+          </div>
+          <div class="slider">
+            <img alt="ConvertKit" src="./assets/ConvertKit.png" />
+          </div>
+       
+
+        </div>
+      </section>
+
+      <section class="mt-28 px-[8%]">
+        <div class="relative flex items-start gap-4 flex-col max-w-md">
+            <img class="absolute -top-12 left-20" src="./assets/scribble.svg" alt="scribble"/>
+        <h1 class="font-bold text-3xl">
+            See a UAP in action
+        </h1>
+        <p class="text-xl">
+            Watch James demo CommandBar's 
+            User Assistance Platform in ~2 minutes
+        </p>
+        </div>
+        <div class="relative mt-10 cursor-pointer">
+            <img src="./assets/Analytics.png" alt="analytics"/>
+
+            <img src="./assets/james-pip.png" alt="James pip" class="absolute h-[182px] bottom-0 "/>
+            <div>
+                <img class="absolute top-1/2 right-1/2 " src="./assets/play-icon-big.svg" alt="play"/>
+            </div>
+            <div class="absolute">
+                <p>Watch James Demo CommandBar <span>2 min</span></p>
+            </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
